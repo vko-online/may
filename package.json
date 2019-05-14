@@ -7,12 +7,18 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "@types/react": "^16.8.17",
+    "@types/react-native": "^0.57.55",
     "expo": "^32.0.0",
     "react": "16.5.0",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz"
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-native-paper": "git+https://github.com/callstack/react-native-paper.git",
+    "react-navigation": "^3.9.1"
   },
   "devDependencies": {
-    "babel-preset-expo": "^5.0.0"
+    "babel-preset-expo": "^5.0.0",
+    "tslint": "^5.16.0",
+    "tslint-config-standard": "^8.0.1"
   },
   "private": true
 }
